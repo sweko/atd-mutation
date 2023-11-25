@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace Code
 {
+
+    public record Element(int Width, int Height);
+
     public class Calculator
     {
         public int Add(int first, int second)
@@ -18,5 +21,8 @@ namespace Code
         {
             return first + second;
         }
+
+
+
     }
 }
